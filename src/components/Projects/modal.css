@@ -1,0 +1,98 @@
+.click-btn {
+    display: flex;
+    width: 120px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    margin: 0.5rem;
+    margin-top: 1.25rem;
+    margin-bottom: 0px;
+    line-height: 35px;
+    border: 1px solid;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 16px;
+    color: #000;
+    text-decoration: none;
+    transition: all 0.35s;
+}
+
+.btn-style2 {
+    position: relative;
+    border-color: #000;
+    color: #000;
+}
+
+.btn-style2:hover {
+    box-shadow: 0 0.25em 0.25em -0.1em #dd648a;
+    transform: translateY(-0.25em);
+    background-color: #dd648a;
+    color: #fff;
+    border-color: #dd648a;
+}
+
+.btn-style3 {
+    position: relative;
+    border-color: #193256;
+    color: #193256;
+    overflow: hidden;
+}
+
+.btn-style3::before {
+    width: 20%;
+    height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    background-color: #193256;
+    transform: rotateZ(-45deg) translate(-50%, -50%);
+    transition: all 0.3s;
+    content: '';
+    z-index: -1;
+}
+
+.btn-style3:hover {
+    color: #fff;
+}
+
+.btn-style3:hover::before {
+    width: 100%;
+    top: 0;
+    transform: none;
+}
+
+.btn-style1 {
+    position: relative;
+    background-color: #dd7e2a;
+    border-color: #dd7e2a;
+    color: #fff;
+    overflow: hidden;
+}
+
+.btn-style1::before {
+    width: 25px;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    content: "\f054";
+    font-family:  "FontAwesome";
+    font-weight: bold;
+    font-size: 10px;
+    color: #fff;
+    text-indent: 5px;
+    border-radius: 0 50% 50% 0;
+    background-color: rgb(223 183 148 / 73%);
+    transform: translate(-20%, 0) scale(0, 1);
+    transform-origin: left center;
+    transition: all 0.25s;
+    z-index: 1;
+}
+
+.btn-style1:hover {
+    text-indent: 20px;
+}
+
+.btn-style1:hover::before {
+    transform: translate(-20%, 0) scale(1, 1);
+}
