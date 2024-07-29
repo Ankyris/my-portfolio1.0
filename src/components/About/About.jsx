@@ -1,5 +1,5 @@
 import React from 'react'
-import aboutImg from '../../assets/myprofile.jpg'
+import aboutImg from '../../assets/about.png'
 import { Info } from './Info'
 
 export default function About() {
@@ -10,7 +10,7 @@ export default function About() {
         <span className='block text-center text-[16px] mb-14 font-medium' data-aos="fade-down" data-aos-duration="1000">My Introduction</span>
 
         <div className='grid grid-cols-1 lg:grid-cols-2 gap-6 items-center gap-x-16 max-w-[968px] mx-auto'>
-          <img src={aboutImg} alt='about image' className='w-[350px] h-[350px] object-cover rounded-3xl justify-self-center' 
+          <img src={aboutImg} alt='about image' className='w-[350px] h-[350px] object-cover rounded-3xl justify-self-center border-solid border-blue-700' 
           data-aos="fade-right" data-aos-duration="1200"/>
 
           <div className='flex flex-col items-center lg:block' data-aos="fade-left" data-aos-duration="1200">

@@ -1,4 +1,6 @@
 import React from 'react'
+import { FaJava, FaNode } from 'react-icons/fa'
+import { SiExpress, SiMongodb, SiMysql, SiSpring } from 'react-icons/si'
 
 export const Backend = () => {
   return (
@@ -18,6 +20,8 @@ export const Backend = () => {
               text-[16px]'>Java</h3>
               <span className='text-[14px] sm:text-[16px]'>Intermediate</span>
             </div>
+
+            <FaJava className='hidden sm:block ml-3' size="2em" color="#007396" />
           </div>
 
           <div className='flex gap-x-2'>
@@ -28,6 +32,8 @@ export const Backend = () => {
               text-[16px]'>Node.js</h3>
               <span className='text-[14px] sm:text-[16px]'>Intermediate</span>
             </div>
+
+            <FaNode className='hidden sm:block ml-3' size="2em" color="#339933" />
           </div>
 
           <div className='flex gap-x-2'>
@@ -38,6 +44,8 @@ export const Backend = () => {
               text-[16px]'>SpringBoot</h3>
               <span className='text-[14px] sm:text-[16px]'>Basic</span>
             </div>
+
+            <SiSpring className='hidden sm:block ml-3' size="2em" color="#6DB33F" />
           </div>
         </div>
 
@@ -51,6 +59,8 @@ export const Backend = () => {
               text-[16px]'>Express.js</h3>
               <span className='text-[14px] sm:text-[16px]'>Intermediate</span>
             </div>
+
+            <SiExpress className='hidden sm:block ml-3' size="2em" color="#000000" />
           </div>
 
           <div className='flex gap-x-2'>
@@ -61,6 +71,8 @@ export const Backend = () => {
               text-[16px]'>MySQL</h3>
               <span className='text-[14px] sm:text-[16px]'>Intermediate</span>
             </div>
+
+            <SiMysql className='hidden sm:block ml-3' size="2em" color="#00758F" />
           </div>
 
           <div className='flex gap-x-2'>
@@ -71,6 +83,8 @@ export const Backend = () => {
               text-[16px]'>MongoDB</h3>
               <span className='text-[14px] sm:text-[16px]'>Intermediate</span>
             </div>
+
+            <SiMongodb className='hidden sm:block ml-3' size="2em" color="#47A248" />
           </div>
 
         </div>

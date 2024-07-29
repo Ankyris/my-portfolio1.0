@@ -65,7 +65,7 @@ const Projects = () => {
                 Web Design
               </button>
               
-              <button className = {selectTab === 'ux-design' ? `text-white border border-solid
+              <button className = {selectTab === 'web-app' ? `text-white border border-solid
               border-black py-2 px-4 rounded-[8px] bg-[#193256] transition-all duration-[300ms]` : 
               `text-gray-800 border border-solid
               border-black py-2 px-4 rounded-[8px] transition-all duration-[300ms]`}
@@ -75,7 +75,7 @@ const Projects = () => {
             </div>
           </div>
 
-          <div className='flex items-center gap-4 flex-wrap mt-5'>
+          <div className='flex items-center gap-y-4 gap-3 xl:gap-4 flex-wrap mt-5'>
             {portfolios?.slice(0, nextItems).map((portfolio, index) => (
               <div className='group max-w-full sm:w-[48.5%] md:w-[31.8%] lg:w-[32.2%]
               relative z-[1]' key={index}

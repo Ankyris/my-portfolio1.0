@@ -40,14 +40,28 @@ const Modal = ({ activeID, setShowModal }) => {
                         ))}
                     </div>
 
-                    <a href={portfolio.siteUrl} target='_blank'>
+                    <div className='flex items-center'>
+                        <a href={portfolio.siteUrl} target='_blank'>
+                            <button className='click-btn btn-style2'>
+                                Live Site
+                            </button>
+                        </a>
+
+                        <a href={portfolio.githbUrl} target='_blank'>
+                            <button className='click-btn btn-style22'>
+                                GitHub Link
+                            </button>
+                        </a>
+                    </div>
+
+                    {/* <a href={portfolio.siteUrl} target='_blank'>
                         <button className='click-btn btn-style2'
                         // className='bg-[#8873ef] text-white py-2 px-4 mt-5
                         // rounded-[8px] font-medium hover:bg-[#081e21] ease-in duration-300'
                         >
                             Live Site
                         </button>
-                    </a>
+                    </a> */}
                 </div>
 
                 <button className='w-[1.8rem] h-[1.8rem] bg-white absolute top-[1.7rem]

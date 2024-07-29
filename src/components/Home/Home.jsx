@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 import Typed from 'typed.js';
-import profileImg from '../../assets/image4.jpg'
+import profileImg from '../../assets/profile.jpg'
 import './home.css';
 
 export default function Home() {
@@ -22,14 +22,17 @@ export default function Home() {
     };
 
   }, []);
-  
+
+  function openLink() {
+    window.open('https://youtu.be/1_cOK_z0zXE?si=49CFqBCD3wrvht5t', '_blank');
+  }
 
   return (
-    <section id='home' className='flex flex-col lg:flex-row justify-around items-center container px-6 md:px-12 lg:px-[80px]'>
+    <section id='home' className='flex flex-col lg:flex-row justify-around items-center container xl:pt-8 px-6 md:px-12 lg:px-[80px]'>
         <div className='text-center lg:text-left'>
             <h3 className='flex items-center justify-center lg:justify-start gap-1 text-2xl lg:text-[32px] font-[700] mb-2'
             data-aos="fade-right" data-aos-duration="1500">
-              Hey There! <span>👋</span>
+              Hey There! <span className='wave'>👋</span>
             </h3>
             <h1 className='text-4xl lg:text-[56px] font-[700] leading-tight lg:leading-[60px]'
             data-aos="fade-up" data-aos-duration="1500">
@@ -105,7 +108,7 @@ export default function Home() {
               <i className="ri-send-plane-fill"></i> Let's Talk
             </button> */}
 
-            <button className='main-button learn-more'>
+            <button className='main-button learn-more' onClick={openLink}>
               <span className='circle'>
                 <span className=''><i className="uil uil-youtube icon arrow"></i></span>
               </span>

@@ -63,11 +63,11 @@ const Contact = () => {
                         
                         <a href='mailto:aungkk1505@gmail.com' className='contact__button
                         text-gray-500 inline-flex items-center justify-center gap-x-1
-                        group'>
+                        group hover:text-amber-600'>
                             Email me
                             <i className='bx bx-right-arrow-alt contact__button-icon
                             text-[16px] transition duration-300
-                            group-hover:translate-x-[0.25rem]'></i>
+                            group-hover:translate-x-[0.25rem] '></i>
                         </a>
                     </div>
 
@@ -80,7 +80,7 @@ const Contact = () => {
                         <span className='contact__card-data text-[14px] block mb-3'>+959 443 977 755</span>
                         
                         <a href='tel:+959443977755' className='contact__button text-gray-500 inline-flex items-center justify-center gap-x-1
-                        group'>
+                        group hover:text-[#51C332]'>
                             Call me
                             <i className='bx bx-right-arrow-alt contact__button-icon
                             text-[16px] transition duration-300
@@ -99,7 +99,7 @@ const Contact = () => {
                         
                         <a href='https://m.me/aungkhantkyaw1505' target='_blank' className='contact__button
                         text-gray-500 inline-flex items-center justify-center gap-x-1
-                        group'>
+                        group hover:text-[#006AFF]'>
                             Message me
                             <i className='bx bx-right-arrow-alt contact__button-icon
                             text-[16px] transition duration-300
@@ -121,7 +121,7 @@ const Contact = () => {
                         <input required type='text' name='name' placeholder='Insert your name' 
                         className='contact__form-input absolute top-0 left-0 w-full h-full
                         border-2 border-solid border-[rgba(0,_0,_0,_0.3)] bg-none text-black
-                        outline-none rounded-xl p-6 z-[1]' autoComplete='off'/>
+                        outline-none rounded-xl p-6 z-[1] focus:border-amber-600' autoComplete='off'/>
                     </div>
 
                     <div className='contact__form-div relative mb-8 h-[64px]'>
@@ -131,7 +131,7 @@ const Contact = () => {
                         <input required type='email' name='email' placeholder='Insert your email' 
                         className='contact__form-input absolute top-0 left-0 w-full h-full
                         border-2 border-solid border-[rgba(0,_0,_0,_0.3)] bg-none text-black
-                        outline-none rounded-xl p-6 z-[1]' />
+                        outline-none rounded-xl p-6 z-[1] focus:border-[#51C332]' />
                     </div>
 
                     <div className='contact__form-div relative mb-8 h-[10rem]'>
@@ -140,7 +140,7 @@ const Contact = () => {
                         bg-white z-10'>Project</label>
                         <textarea name='project' cols='30' rows='10' className='contact__from-input absolute top-0 left-0 w-full h-full
                         border-2 border-solid border-[rgba(0,_0,_0,_0.3)] bg-none text-black
-                        outline-none rounded-xl p-6 z-[1] resize-none' placeholder='Write your project'></textarea>
+                        outline-none rounded-xl p-6 z-[1] resize-none focus:border-[#006AFF]' placeholder='Write your project' required></textarea>
                     </div>
 
                     <button onMouseDown={handleMouseDown} className='bg-gray-800 text-white py-5 px-8 rounded-2xl font-medium

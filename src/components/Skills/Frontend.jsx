@@ -1,4 +1,5 @@
 import React from 'react'
+import { SiCss3, SiJavascript, SiNextdotjs, SiReact, SiTailwindcss, SiTypescript } from 'react-icons/si'
 
 export const Frontend = () => {
   return (
@@ -19,6 +20,8 @@ export const Frontend = () => {
               text-[16px]'>CSS</h3>
               <span className='text-[14px] sm:text-[16px]'>Intermediate</span>
             </div>
+
+            <SiCss3 className='hidden sm:block ml-3' size="2em" color="#1572B6" />
           </div>
 
           <div className='flex gap-x-2'>
@@ -29,6 +32,8 @@ export const Frontend = () => {
               text-[16px]'>JavaScript</h3>
               <span className='text-[14px] sm:text-[16px]'>Intermediate</span>
             </div>
+
+            <SiJavascript className='hidden sm:block ml-3' size="2em" color="#F7DF1E" />
           </div>
 
           <div className='flex gap-x-2'>
@@ -39,6 +44,8 @@ export const Frontend = () => {
               text-[16px]'>Tailwind</h3>
               <span className='text-[14px] sm:text-[16px]'>Advanced</span>
             </div>
+
+            <SiTailwindcss className='hidden sm:block ml-auto' size="2em" color="#38B2AC" />
           </div>
 
         </div>
@@ -53,6 +60,8 @@ export const Frontend = () => {
               text-[16px]'>React</h3>
               <span className='text-[14px] sm:text-[16px]'>Advanced</span>
             </div>
+
+            <SiReact className='hidden sm:block ml-auto' size="2em" color="#61DAFB" />
           </div>
 
           <div className='flex gap-x-2'>
@@ -63,6 +72,8 @@ export const Frontend = () => {
               text-[16px]'>TypeScript</h3>
               <span className='text-[14px] sm:text-[16px]'>Intermediate</span>
             </div>
+
+            <SiTypescript className='hidden sm:block ml-3' size="2em" color="#3178C6" />
           </div>
 
           <div className='flex gap-x-2'>
@@ -73,6 +84,8 @@ export const Frontend = () => {
               text-[16px]'>Next.js</h3>
               <span className='text-[14px] sm:text-[16px]'>Intermediate</span>
             </div>
+
+            <SiNextdotjs className='hidden sm:block ml-3' size="2em" color="#000000" />
           </div>
         </div>
       </div>

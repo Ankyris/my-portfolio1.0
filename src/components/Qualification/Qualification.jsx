@@ -1,4 +1,6 @@
-import React, { useState } from 'react'
+import React, { useState } from 'react';
+import lithan from '../../assets/lithan1.jpeg';
+import udemy from '../../assets/udemy.png';
 
 const Qualification = () => {
 
@@ -45,13 +47,15 @@ const Qualification = () => {
             <div className={toggleState === 1 ? 'block' : 'hidden'}>
               <div className='qualification__data grid grid-cols-[1fr_max-content_1fr] gap-x-2 sm:gap-x-6 mb-2 sm:mb-0'>
 
-                <div data-aos="fade-right" data-aos-duration="1200">
+                <div className='relative' data-aos="fade-right" data-aos-duration="1200">
                   <h3 className='text-[16px] text-gray-800 font-semibold'>Self-learning</h3>
                   <span className='inline-block text-[14px] mb-4'>Online Courses</span>
                   <div className='text-[14px]'>
                     <i className="uil uil-calendar-alt mr-2"></i>
                     2021 - 2022
                   </div>
+
+                  <img src={udemy} alt="Lithan Logo" className="hidden sm:block absolute -left-[170px] top-[40px] transform -translate-y-[50%]" />
                 </div>
 
                 <div>
@@ -72,25 +76,29 @@ const Qualification = () => {
                   block w-[1px] h-full bg-gray-500 translate-x-[6px] -translate-y-[7px]'></span>
                 </div>
 
-                <div data-aos="fade-left" data-aos-delay="50" data-aos-duration="1300">
+                <div className='relative' data-aos="fade-left" data-aos-delay="50" data-aos-duration="1300">
                   <h3 className='text-gray-800 text-[16px] font-semibold'>Level 3 Foundation</h3>
                   <span className='inline-block text-[14px] mb-4'>Lithan - EduClassS</span>
                   <div className='text-[14px]'>
                     <i className='uil uil-calendar-alt mr-2'></i>
                     2022 - 2023
                   </div>
+
+                  <img src={lithan} alt="Lithan Logo" className="hidden sm:block absolute -right-[135px] top-[45px] transform -translate-y-[50%]" />
                 </div>
 
               </div>
 
               <div className='qualification__data grid grid-cols-[1fr_max-content_1fr] gap-x-2 sm:gap-x-6 mb-2 sm:mb-0'>
-                <div data-aos="fade-right" data-aos-delay="100" data-aos-duration="1400">
+                <div className='relative' data-aos="fade-right" data-aos-delay="100" data-aos-duration="1400">
                   <h3 className='text-gray-800 text-[16px] font-semibold'>Level 4 HND</h3>
                   <span className='inline-block text-[14px] mb-4'>Lithan - EduClassS</span>
                   <div className='text-[14px]'>
                     <i className='uil uil-calendar-alt mr-2'></i>
                     2023 - 2024
                   </div>
+
+                  <img src={lithan} alt="Lithan Logo" className="hidden sm:block absolute -left-[170px] top-[45px] transform -translate-y-[50%]" />
                 </div>
 
                 <div>
@@ -111,13 +119,15 @@ const Qualification = () => {
                   block w-[1px] h-full bg-gray-500 translate-x-[6px] -translate-y-[7px]'></span>
                 </div>
 
-                <div data-aos="fade-left" data-aos-delay="150" data-aos-duration="1500">
+                <div className='relative' data-aos="fade-left" data-aos-delay="150" data-aos-duration="1500">
                   <h3 className='text-gray-800 text-[16px] font-semibold'>Level 5 HND</h3>
                   <span className='inline-block text-[14px] mb-4'>Lithan - EduClassS</span>
                   <div className='text-[14px]'>
                     <i className='uil uil-calendar-alt mr-2'></i>
                     2023 - Present
                   </div>
+
+                  <img src={lithan} alt="Lithan Logo" className="hidden sm:block absolute -right-[135px] top-[45px] transform -translate-y-[50%]" />
                 </div>
 
               </div>

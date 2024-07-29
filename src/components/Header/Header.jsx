@@ -49,11 +49,11 @@ export default function Header() {
 
   return (
     <header ref={headerRef} className='w-full h-[80px] leading-[80px] flex items-center '>
-      <div className='container px-6 sm:px-[60px]'>
+      <div className='container px-6 lg:px-[60px]'>
         <div className='flex items-center justify-between'>
           {/* Logo */}
           <div className='flex items-center gap-[10px]'>
-            <a onClick={handleClick} href='#home' className='w-[35px] h-[35px] bg-amber-900 text-white text-[18px] font-[500] 
+            <a onClick={handleClick} href='#home' className='w-[35px] h-[35px] bg-blue-800 text-white text-[18px] font-[500] 
             rounded-full flex items-center justify-center'>
               A
             </a>
@@ -67,7 +67,7 @@ export default function Header() {
 
           {/* Menu Start */}
           <div className='menu' ref={menuRef} onClick={toogleMenu}>
-            <ul className='flex items-center gap-10 text-lg font-[500]'>
+            <ul className='flex items-center gap-5 lg:gap-10 text-lg font-[500]'>
               <li><a onClick={handleClick} href='#about' className= {activeNav === '#about' ? 'text-amber-800' : 'hover:text-amber-800'} >About</a></li>
               <li><a onClick={handleClick} href='#skills' className= {activeNav === '#skills' ? 'text-amber-800' : 'hover:text-amber-800'} >Skills</a></li>
               <li><a onClick={handleClick} href='#services' className= {activeNav === '#services' ? 'text-amber-800' : 'hover:text-amber-800'} >Services</a></li>
