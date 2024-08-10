@@ -24,7 +24,7 @@ export default function Home() {
   }, []);
 
   function openLink() {
-    window.open('https://youtu.be/1_cOK_z0zXE?si=49CFqBCD3wrvht5t', '_blank');
+    window.open('https://youtu.be/eGKP2kZ7Z60', '_blank');
   }
 
   return (
@@ -113,7 +113,7 @@ export default function Home() {
                 <span className=''><i className="uil uil-youtube icon arrow"></i></span>
               </span>
               <span className='button-text'>
-                <a target='_blank' href='https://youtu.be/1_cOK_z0zXE?si=49CFqBCD3wrvht5t'>Intro Video</a>
+                <a target='_blank' href='https://youtu.be/eGKP2kZ7Z60'>Intro Video</a>
               </span>
             </button>
         </div>

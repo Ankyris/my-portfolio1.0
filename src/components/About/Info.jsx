@@ -8,7 +8,7 @@ export const Info = () => {
       hover:bg-amber-100 hover:shadow-lg'>
         <i className='bx bxs-award text-[24px] text-amber-500 mb-2'></i>
         <h3 className='text-[14px] font-bold'>Experience</h3>
-        <span className='text-[13px]'>3+ Years</span>
+        <span className='text-[13px]'>2+ Years</span>
       </div>
 
       <div className='bg-white border border-solid border-[rgba(0,_0,_0,_0.1)]
