@@ -17,8 +17,8 @@ export default function About() {
             <Info />
 
             <p className='text-center lg:text-start py-0 px-4 lg:pl-0 lg:pr-[3.5rem] transition duration-[3000ms] ease-in mb-11 md:line-clamp-3 hover:line-clamp-none '>
-              Hi, I am <b>Aung Khant Kyaw</b>, a <b>22-year-old</b> software engineering student from <b>Myanmar</b>, 
-              who is currently pursuing my Pearson Level 5 Higher Diploma in Computer Science at <b>Lithan EduClassS University</b>.
+              Hi, I am Aung Khant Kyaw, a 22-year-old software engineering student from Myanmar, 
+              who is currently pursuing my Pearson Level 5 Higher Diploma in Computer Science at Lithan EduClassS University.
             </p>
 
             {/* <a download="" href="/Project.pdf" className='inline-flex items-center justify-center gap-3 px-8
