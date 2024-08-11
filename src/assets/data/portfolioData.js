@@ -17,7 +17,7 @@ const portfolios = [
     title: "In-A-Box Restaurant UI/UX",
     description: "Website offers a seamless browsing experience, allowing users to explore diverse menus, learn about the restaurnat's latest creations, and enjoy high-resolution images of the dishes, read detailed descriptions!",
     technologies: ["HTML", "CSS", "JavaScript", "Bootstrap", "JQuery"],
-    siteUrl: "https://inaboxui.000webhostapp.com",
+    siteUrl: "https://in-a-box-restaurant-ui.onrender.com",
     githbUrl: "https://github.com/Ankyris/In-A-Box-Restaurant-UI",
   },
   {
@@ -39,7 +39,7 @@ const portfolios = [
     description:
       "A martial arts website that is dedicated to the practice and community of various martial arts disciplines. It offers a range of features, including detailed information on different martial arts styles, and training resources.",
     technologies: ["HTML", "CSS", "Bootstrap", "JavaScript", "JQuery"],
-    siteUrl: "https://dobumartialarts.000webhostapp.com",
+    siteUrl: "https://dobu-martial-arts.onrender.com",
     githbUrl: "https://github.com/Ankyris/dobu-martials-art",
   },
   {
@@ -61,7 +61,7 @@ const portfolios = [
     description:
       "Next Movies is a dynamic web application built with Next.js, designed to offer users an immersive experience in exploring and discovering movies. Leveraging the powerful TMDB (The Movie Database) API.",
     technologies: ["React","Tailwind CSS", "Next.js", "shadcn/ui", "TMDB API"],
-    siteUrl: "https://next-movies-n3igz5u08-ankyris-projects.vercel.app/",
+    siteUrl: "https://next-movies-n3igz5u08-ankyris-projects.vercel.app",
     githbUrl: "https://github.com/Ankyris/next-movies",
   },
   {
@@ -83,8 +83,8 @@ const portfolios = [
     description:
       "Explore the rich history, diverse culture, and unique geography of Myanmar with this quiz. Test your knowledge about this Southeast Asian nation, from its ancient cities and traditional festivals to its political landscape and natural resources.",
     technologies: ["React", "Tailwind CSS", "Context", "Axios API"],
-    siteUrl: "https://language-translator-opal.vercel.app/",
-    githbUrl: "https://github.com/Ankyris/language-translator",
+    siteUrl: "https://quiz-app-pied-one.vercel.app",
+    githbUrl: "https://github.com/Ankyris/quiz-app",
   },
   {
     id: "08",
@@ -105,8 +105,8 @@ const portfolios = [
     description:
       "A language translator app for overcoming language barriers and facilitating communication between speakers of different languages. It offers real-time translation of text, and speech, supporting multiple languages and dialects.",
     technologies: ["React", "CSS", "Tailwind", "Rapid API"],
-    siteUrl: "https://github.com/Ankyris/language-translator",
-    githbUrl: "https://language-translator-opal.vercel.app/",
+    siteUrl: "https://language-translator-opal.vercel.app",
+    githbUrl: "https://github.com/Ankyris/language-translator",
   },
   {
     id: "10",
