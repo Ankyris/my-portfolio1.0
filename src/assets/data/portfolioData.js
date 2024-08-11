@@ -10,20 +10,8 @@ import portfolioImg09 from "../images/nextMovies.png";
 import portfolioImg10 from "../images/yaycha.png";
 
 const portfolios = [
-
   {
     id: "01",
-    imgUrl: portfolioImg01,
-    category: "Web Design",
-    title: "Martial Arts Website",
-    description:
-      "A martial arts website that is dedicated to the practice and community of various martial arts disciplines. It offers a range of features, including detailed information on different martial arts styles, and training resources.",
-    technologies: ["HTML", "CSS", "Bootstrap", "JavaScript", "JQuery"],
-    siteUrl: "https://dobumartialarts.000webhostapp.com",
-    githbUrl: "https://github.com/Ankyris/dobu-martials-art",
-  },
-  {
-    id: "02",
     imgUrl: portfolioImg02,
     category: "Web Design",
     title: "In-A-Box Restaurant UI/UX",
@@ -33,15 +21,26 @@ const portfolios = [
     githbUrl: "https://github.com/Ankyris/In-A-Box-Restaurant-UI",
   },
   {
-    id: "03",
+    id: "02",
     imgUrl: portfolioImg10,
     category: "Web App",
     title: "Social Media App",
     description:
       "Yaycha Social Media App is a dynamic and interactive platform designed to connect people and foster communication in real-time. Built with modern web technologies.",
     technologies: ["React", "MUI", "Node.js", "WebSocket", "Prisma", "SQLite"],
-    siteUrl: "https://github.com/Ankyris/social-media",
+    siteUrl: "https://yaycha-social.vercel.app",
     githbUrl: "https://github.com/Ankyris/social-media",
+  },
+  {
+    id: "03",
+    imgUrl: portfolioImg01,
+    category: "Web Design",
+    title: "Martial Arts Website",
+    description:
+      "A martial arts website that is dedicated to the practice and community of various martial arts disciplines. It offers a range of features, including detailed information on different martial arts styles, and training resources.",
+    technologies: ["HTML", "CSS", "Bootstrap", "JavaScript", "JQuery"],
+    siteUrl: "https://dobumartialarts.000webhostapp.com",
+    githbUrl: "https://github.com/Ankyris/dobu-martials-art",
   },
   {
     id: "04",
