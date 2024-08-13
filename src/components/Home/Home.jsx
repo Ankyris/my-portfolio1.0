@@ -24,7 +24,7 @@ export default function Home() {
   }, []);
 
   function openLink() {
-    window.open('https://youtu.be/Wj0Muk3AHHU', '_blank');
+    window.open('https://youtu.be/27hUfTZ8VOQ', '_blank');
   }
 
   return (
@@ -113,7 +113,7 @@ export default function Home() {
                 <span className=''><i className="uil uil-youtube icon arrow"></i></span>
               </span>
               <span className='button-text'>
-                <a target='_blank' href='https://youtu.be/Wj0Muk3AHHU'>Intro Video</a>
+                <a target='_blank' href='https://youtu.be/27hUfTZ8VOQ'>Intro Video</a>
               </span>
             </button>
         </div>
