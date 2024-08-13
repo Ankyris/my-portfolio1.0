@@ -11,7 +11,7 @@ const Modal = ({ activeID, setShowModal }) => {
         bg-[#081e21] bg-opacity-40'>
             <div className='w-11/12 md:max-w-[600px] md:w-full absolute top-1/2 left-1/2 z-[1002]
             bg-white rounded-[8px] transform -translate-x-1/2 -translate-y-1/2 p-5 
-            max-h-[99%]'>
+            max-h-[99%] overflow-y-auto'>
                 <div>
                     <figure>
                         <img className='rounded-[8px]' src={portfolio.imgUrl} alt={portfolio.title} />

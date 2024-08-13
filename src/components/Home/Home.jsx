@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 import Typed from 'typed.js';
-import profileImg from '../../assets/profile.jpg'
+import profileImg from '../../assets/home.jpg'
 import './home.css';
 
 export default function Home() {
@@ -24,7 +24,7 @@ export default function Home() {
   }, []);
 
   function openLink() {
-    window.open('https://youtu.be/eGKP2kZ7Z60', '_blank');
+    window.open('https://youtu.be/Wj0Muk3AHHU', '_blank');
   }
 
   return (
@@ -113,7 +113,7 @@ export default function Home() {
                 <span className=''><i className="uil uil-youtube icon arrow"></i></span>
               </span>
               <span className='button-text'>
-                <a target='_blank' href='https://youtu.be/eGKP2kZ7Z60'>Intro Video</a>
+                <a target='_blank' href='https://youtu.be/Wj0Muk3AHHU'>Intro Video</a>
               </span>
             </button>
         </div>

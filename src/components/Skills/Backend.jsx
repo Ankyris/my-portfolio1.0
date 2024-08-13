@@ -7,7 +7,7 @@ export const Backend = () => {
     <div className='bg-white border-2 border-solid border-[rgba(0,_0,_0,_0.2)]
     py-8 px-8 md:px-16 rounded-[20px] transition duration-[200ms] ease-[ease]
     hover:bg-slate-50 hover:shadow-lg hover:border-[rgba(0,_0,_0,_0.4)] hover:scale-105'>
-      <h3 className='text-[22px] font-semibold text-center mb-6'>Backend Developer</h3>
+      <h3 className='text-[22px] font-semibold text-center mb-6'>Backend Development</h3>
 
       <div className='flex justify-center sm:gap-x-16
       gap-x-10'>

@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import lithan from '../../assets/lithan1.jpeg';
 import udemy from '../../assets/udemy.png';
+import skillshub from '../../assets/skillshub.jpg';
+import upwork from '../../assets/upwork.jpg';
 
 const Qualification = () => {
 
@@ -137,13 +139,15 @@ const Qualification = () => {
 
               <div className='qualification__data grid grid-cols-[1fr_max-content_1fr] gap-x-2 sm:gap-x-6 mb-2 sm:mb-0'>
 
-                <div>
+                <div className='relative'>
                   <h3 className='text-gray-800 text-[16px] font-semibold'>Front-End Developer</h3>
-                  <span className='inline-block text-[14px] mb-4'>Self-Employed</span>
+                  <span className='inline-block text-[14px] mb-4'>Instructor</span>
                   <div className='text-[14px]'>
                     <i className='uil uil-calendar-alt mr-2'></i>
                     2023 - Present
                   </div>
+
+                  <img src={skillshub} alt="Lithan Logo" className="hidden sm:block absolute -left-[175px] top-[45px] transform -translate-y-[50%] w-[161px] h-[115px] object-cover" />
                 </div>
 
                 <div>
@@ -164,26 +168,30 @@ const Qualification = () => {
                   block w-[1px] h-full bg-gray-500 translate-x-[6px] -translate-y-[7px]'></span>
                 </div>
 
-                <div>
+                <div className='relative'>
                   <h3 className='text-gray-800 text-[16px] font-semibold'>Back-End Developer</h3>
-                  <span className='inline-block text-[14px] mb-4'>Self-Employed</span>
+                  <span className='inline-block text-[14px] mb-4'>Instructor</span>
                   <div className='text-[14px]'>
                     <i className='uil uil-calendar-alt mr-2'></i>
                     2023 - Present
                   </div>
+
+                  <img src={skillshub} alt="Lithan Logo" className="hidden sm:block absolute -right-[155px] top-[45px] transform -translate-y-[50%] w-[161px] h-[115px] object-cover" />
                 </div>
 
               </div>
 
               <div className='qualification__data grid grid-cols-[1fr_max-content_1fr] gap-x-2 sm:gap-x-6'>
                 
-                <div>
+                <div className='relative'>
                   <h3 className='text-gray-800 text-[16px] font-semibold'>Full Stack Developer</h3>
-                  <span className='inline-block text-[14px] mb-4'>Self-Employed</span>
+                  <span className='inline-block text-[14px] mb-4'>Freelancer</span>
                   <div className='text-[14px]'>
                     <i className='uil uil-calendar-alt mr-2'></i>
-                    2023 - Present
+                    2024 - Present
                   </div>
+
+                  <img src={upwork} alt="Lithan Logo" className="hidden sm:block absolute -left-[175px] top-[45px] transform -translate-y-[50%] w-[161px] h-[115px] object-cover" />
                 </div>
 
                 <div>

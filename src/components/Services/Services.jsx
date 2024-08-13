@@ -39,14 +39,14 @@ const Services = () => {
             flex justify-center items-center py-0 px-4 opacity-0 invisible transition duration-300`} 
             >
               <div className='w-full max-w-[500px] relative bg-blue-800 text-white
-              py-[30px] px-10 sm:pt-[60px] sm:pb-10 rounded-[24px]'>
+              py-[30px] px-10 sm:pt-[30px] sm:pb-10 rounded-[24px]'>
                 <i onClick={() => toggleTab(0)} className='uil uil-times
                 absolute top-6 right-6 text-[24px] text-white cursor-pointer'></i>
 
                 <h3 className='text-white font-semibold text-center
-                text-[18px] sm:text-[20px] mb-4'>Front-End Developer</h3>
+                text-[18px] sm:text-[20px] mb-4'>Front-End Development</h3>
                 <p className='text-center text-[15px] sm:text-[16px] py-0 px-4 sm:px-14 mb-8'>
-                  Front-end development involves creating the part of a web
+                  Involve creating the part of a web
                   application that users interact with directly.
                 </p>
 
@@ -121,14 +121,14 @@ const Services = () => {
             flex justify-center items-center py-0 px-4 opacity-0 invisible transition duration-300`}>
               
               <div className='w-full max-w-[500px] relative bg-emerald-700 text-white
-              py-[30px] px-10 sm:pt-[60px] sm:pb-10 rounded-[24px]'>
+              py-[30px] px-10 sm:pt-[23px] sm:pb-[25px] rounded-[24px]'>
                 <i onClick={() => toggleTab(0)} className='uil uil-times
-                absolute top-6 right-6 text-[24px] text-white cursor-pointer'></i>
+                absolute top-5 right-6 text-[24px] text-white cursor-pointer'></i>
 
                 <h3 className='text-white font-bold text-center
-                text-[18px] sm:text-[20px] mb-4'>Back-End Developer</h3>
+                text-[18px] sm:text-[20px] mb-4'>Back-End Development</h3>
                 <p className='text-center text-[15px] sm:text-[16px] py-0 px-4 sm:px-14 mb-8'>
-                  Back-end development involves building and maintaining 
+                  Involve building and maintaining
                   the server-side components of a web application.
                 </p>
 
@@ -202,15 +202,15 @@ const Services = () => {
             `fixed top-0 left-0 right-0 bottom-0 bg-[rgba(0,0,0,0.5)] z-[1000]
             flex justify-center items-center py-0 px-4 opacity-0 invisible transition duration-300`}>
               <div className='w-full max-w-[500px] relative bg-pink-800 text-white
-              py-[30px] px-10 sm:pt-[35px] sm:pb-10 rounded-[24px]'>
+              py-[30px] px-10 sm:pt-[30px] sm:pb-[30px] rounded-[24px]'>
                 
                 <i onClick={() => toggleTab(0)} className='uil uil-times 
                 absolute top-6 right-6 text-[24px] text-white cursor-pointer'></i>
 
                 <h3 className='text-white font-bold text-center
-                text-[18px] sm:text-[20px] mb-4'>Full Stack Developer</h3>
+                text-[18px] sm:text-[20px] mb-4'>Full Stack Development</h3>
                 <p className='text-center text-[15px] sm:text-[16px] py-0 px-4 sm:px-14 mb-8'>
-                  Full stack development involves working on both the front-end and back-end of web applications.
+                  Involve working on both the front-end and back-end of web applications.
                 </p>
 
                 <ul className='grid gap-6 gap-y-3'>
@@ -226,7 +226,7 @@ const Services = () => {
                     <i className='bx bxs-check-circle
                     text-[1.1rem]'></i>
                     <p className='text-[14px] sm:text-[16px]'>
-                      I design, and manage databases using SQL or NoSQL technologies.
+                      I use tools like Prisma ORM for database management.
                     </p>
                   </li>
 
@@ -246,13 +246,13 @@ const Services = () => {
                     </p>
                   </li>
 
-                  <li className='flex gap-x-2'>
+                  {/* <li className='flex gap-x-2'>
                     <i className='bx bxs-check-circle
                    text-[1.1rem]'></i>
                     <p className='text-[14px] sm:text-[16px]'>
                       I use Git for source code management and collaboration.
                     </p>
-                  </li>
+                  </li> */}
 
                 </ul>
               </div>
