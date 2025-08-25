@@ -53,10 +53,10 @@ export default function Header() {
         <div className='flex items-center justify-between'>
           {/* Logo */}
           <div className='flex items-center gap-[10px]'>
-            <a onClick={handleClick} href='#home' className='w-[35px] h-[35px] bg-blue-800 text-white text-[18px] font-[500] 
+            {/* <a onClick={handleClick} href='#home' className='w-[35px] h-[35px] bg-blue-800 text-white text-[18px] font-[500] 
             rounded-full flex items-center justify-center'>
               A
-            </a>
+            </a> */}
 
             <div className='leading-[20px]'>
               <h2 className='text-xl font-[700]'>Aung</h2>

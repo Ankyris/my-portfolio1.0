@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 import Typed from 'typed.js';
-import profileImg from '../../assets/home.jpg'
+import profileImg from '../../assets/Linkedin1.jpg'
 import './home.css';
 
 export default function Home() {

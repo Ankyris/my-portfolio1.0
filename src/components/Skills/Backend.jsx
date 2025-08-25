@@ -1,6 +1,6 @@
 import React from 'react'
 import { FaJava, FaNode } from 'react-icons/fa'
-import { SiExpress, SiMongodb, SiMysql, SiSpring } from 'react-icons/si'
+import { SiExpress, SiMongodb, SiMysql, SiPhp } from 'react-icons/si'
 
 export const Backend = () => {
   return (
@@ -18,7 +18,7 @@ export const Backend = () => {
             <div>
               <h3 className='sm:text-[18px] leading-[18px] font-medium
               text-[16px]'>Java</h3>
-              <span className='text-[14px] sm:text-[16px]'>Intermediate</span>
+              <span className='text-[14px] sm:text-[16px]'>Basic</span>
             </div>
 
             <FaJava className='hidden sm:block ml-3' size="2em" color="#007396" />
@@ -41,11 +41,11 @@ export const Backend = () => {
 
             <div>
               <h3 className='sm:text-[18px] leading-[18px] font-semibold
-              text-[16px]'>SpringBoot</h3>
+              text-[16px]'>PHP</h3>
               <span className='text-[14px] sm:text-[16px]'>Basic</span>
             </div>
 
-            <SiSpring className='hidden sm:block ml-3' size="2em" color="#6DB33F" />
+            <SiPhp className='hidden sm:block ml-3' size="2em" color="#3178C6" />
           </div>
         </div>
 

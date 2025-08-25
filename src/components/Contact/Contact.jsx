@@ -77,7 +77,7 @@ const Contact = () => {
                         text-[32px] text-[#51C332] mb-1'></i>
                         
                         <h3 className='contact__card-title text-[14px] font-medium'>Phone Number</h3>
-                        <span className='contact__card-data text-[14px] block mb-3'>+959 443 977 755</span>
+                        <span className='contact__card-data text-[14px] block mb-3'>+959 771 875 734</span>
                         
                         <a href='tel:+959443977755' className='contact__button text-gray-500 inline-flex items-center justify-center gap-x-1
                         group hover:text-[#51C332]'>

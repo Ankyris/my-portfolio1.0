@@ -42,7 +42,7 @@ export const Frontend = () => {
             <div>
               <h3 className='sm:text-[18px] leading-[18px] font-semibold
               text-[16px]'>Tailwind</h3>
-              <span className='text-[14px] sm:text-[16px]'>Advanced</span>
+              <span className='text-[14px] sm:text-[16px]'>Intermediate</span>
             </div>
 
             <SiTailwindcss className='hidden sm:block ml-auto' size="2em" color="#38B2AC" />
@@ -58,7 +58,7 @@ export const Frontend = () => {
             <div>
               <h3 className='sm:text-[18px] leading-[18px] font-semibold
               text-[16px]'>React</h3>
-              <span className='text-[14px] sm:text-[16px]'>Advanced</span>
+              <span className='text-[14px] sm:text-[16px]'>Intermediate</span>
             </div>
 
             <SiReact className='hidden sm:block ml-auto' size="2em" color="#61DAFB" />
@@ -70,7 +70,7 @@ export const Frontend = () => {
             <div>
               <h3 className='sm:text-[18px] leading-[18px] font-semibold
               text-[16px]'>TypeScript</h3>
-              <span className='text-[14px] sm:text-[16px]'>Intermediate</span>
+              <span className='text-[14px] sm:text-[16px]'>Basic</span>
             </div>
 
             <SiTypescript className='hidden sm:block ml-3' size="2em" color="#3178C6" />

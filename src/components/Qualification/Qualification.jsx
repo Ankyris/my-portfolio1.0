@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import lithan from '../../assets/lithan1.jpeg';
 import udemy from '../../assets/udemy.png';
-import skillshub from '../../assets/skillshub.jpg';
+import ohmyhome from '../../assets/ohmyhome.png';
 import upwork from '../../assets/upwork.jpg';
 
 const Qualification = () => {
@@ -126,7 +126,7 @@ const Qualification = () => {
                   <span className='inline-block text-[14px] mb-4'>Lithan - EduClassS</span>
                   <div className='text-[14px]'>
                     <i className='uil uil-calendar-alt mr-2'></i>
-                    2023 - Present
+                    2024 - 2025
                   </div>
 
                   <img src={lithan} alt="Lithan Logo" className="hidden sm:block absolute -right-[135px] top-[45px] transform -translate-y-[50%]" />
@@ -140,14 +140,14 @@ const Qualification = () => {
               <div className='qualification__data grid grid-cols-[1fr_max-content_1fr] gap-x-2 sm:gap-x-6 mb-2 sm:mb-0'>
 
                 <div className='relative'>
-                  <h3 className='text-gray-800 text-[16px] font-semibold'>Front-End Developer</h3>
-                  <span className='inline-block text-[14px] mb-4'>Instructor</span>
+                  <h3 className='text-gray-800 text-[16px] font-semibold'>Web Development</h3>
+                  <span className='inline-block text-[14px] mb-4'>Internship</span>
                   <div className='text-[14px]'>
                     <i className='uil uil-calendar-alt mr-2'></i>
-                    2023 - Present
+                    Sep 2024 - Jan 2025
                   </div>
 
-                  <img src={skillshub} alt="Lithan Logo" className="hidden sm:block absolute -left-[175px] top-[45px] transform -translate-y-[50%] w-[161px] h-[115px] object-cover" />
+                  <img src={ohmyhome} alt="OhMyHome Logo" className="hidden sm:block absolute -left-[175px] top-[45px] transform -translate-y-[50%] w-[161px] h-[115px] object-contain" />
                 </div>
 
                 <div>
@@ -169,19 +169,19 @@ const Qualification = () => {
                 </div>
 
                 <div className='relative'>
-                  <h3 className='text-gray-800 text-[16px] font-semibold'>Back-End Developer</h3>
-                  <span className='inline-block text-[14px] mb-4'>Instructor</span>
+                  <h3 className='text-gray-800 text-[16px] font-semibold'>Web Development</h3>
+                  <span className='inline-block text-[14px] mb-4'>Contract</span>
                   <div className='text-[14px]'>
                     <i className='uil uil-calendar-alt mr-2'></i>
-                    2023 - Present
+                    Feb 2025 - July 2025
                   </div>
 
-                  <img src={skillshub} alt="Lithan Logo" className="hidden sm:block absolute -right-[155px] top-[45px] transform -translate-y-[50%] w-[161px] h-[115px] object-cover" />
+                  <img src={ohmyhome} alt="OhMyHome Logo" className="hidden sm:block absolute -right-[155px] top-[45px] transform -translate-y-[50%] w-[161px] h-[115px] object-contain" />
                 </div>
 
               </div>
 
-              <div className='qualification__data grid grid-cols-[1fr_max-content_1fr] gap-x-2 sm:gap-x-6'>
+              {/* <div className='qualification__data grid grid-cols-[1fr_max-content_1fr] gap-x-2 sm:gap-x-6'>
                 
                 <div className='relative'>
                   <h3 className='text-gray-800 text-[16px] font-semibold'>Full Stack Developer</h3>
@@ -200,7 +200,7 @@ const Qualification = () => {
                   <span className='qualification__line
                   block w-[1px] h-full bg-gray-500 translate-x-[6px] -translate-y-[7px]'></span>
                 </div>
-              </div>
+              </div> */}
 
             </div>
           </div>
